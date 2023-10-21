@@ -3,54 +3,70 @@ body {
 }
 
 header {
-    background-image: url('pictures/pets-background.jpg');
+    background-color: #7a1ddc;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 20vh;
+    width: 100%;
     font-family: Arial, sans-serif;
-    margin: -40px -10px 0 -10px;
+    position: fixed;
+    margin: -20px 0 0 -10px;
     padding: 0;
 }
 
 header ul {
+    display: flex;
     list-style-position: inside;
     list-style-type: none;
     text-align: center;
-    margin-top: -5%;
+    margin-top: -70px;
+    margin-left: 30%;
     padding-right: 5%;
     font-size: 3vh;
 }
 
 header ul li {
     border: 1px solid black;
-    margin-left: 85%;
-    background-color: hotpink;
+    background-color: #b26af5;
     border-radius: 15px;
+    width: 200px;
+    height: 35px;
+    padding: 10px;
+    margin-right: 7%;
 }
 
 header h1 {
     text-align: left;
-    padding-top: 4%;
-    padding-left: 4%;
     font-size: 5vh;
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.pictures {
+    width: 80%;
+    height: auto;
+    margin: 2% 6% 2% 6%;
+
 }
 
 .introduction {
     background-color: #dedeff;
-    margin: -15px 0 0 -10px;
-    padding: 30px;
     font-size: 20px;
-    width: 85vw;
+    padding: 40px;
+}
+
+.content {
+    width: fit-content;
 }
 
 main {
     display: flex;
+    padding-top: 16vh;
 }
 
 aside {
-    width: 15vw;
-    background-color: #fedcff;
-    margin-top: -15px
+    width: 250px;
+    background-color:  #b26af5;
 }
 
