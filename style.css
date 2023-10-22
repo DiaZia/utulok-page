@@ -4,11 +4,9 @@ body {
 
 header {
     background-color: #7a1ddc;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    display: flex;
     height: 20vh;
-    width: 100%;
+    width: 101%;
     font-family: Arial, sans-serif;
     position: fixed;
     margin: -20px 0 0 -10px;
@@ -20,8 +18,7 @@ header ul {
     list-style-position: inside;
     list-style-type: none;
     text-align: center;
-    margin-top: -90px;
-    margin-left: 30%;
+    padding-top: 30px;
     padding-right: 5%;
 
 }
@@ -35,6 +32,7 @@ button {
     font-family: 'Dancing Script', cursive;
     font-size: 5vh;
     transition: background-color 0.3s;
+    cursor: pointer;
 }
 
 button:active {
@@ -47,28 +45,39 @@ header h1 {
     font-size: 8vh;
     padding-top: 10px;
     padding-left: 30px;
+    width: 400px;
+}
+
+.loginPic{
+    margin-right: 20px;
+    margin-left: auto;
+    padding-top: 30px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
 }
 
 .pictures {
     width: 80%;
     height: auto;
     margin: 2% 6% 2% 6%;
-
 }
 
 .introduction {
     background-color: #dedeff;
-    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
     padding: 40px;
 }
 
 .content {
-    width: fit-content;
+    width: 100%;
 }
 
 main {
     display: flex;
     padding-top: 16vh;
+    width: 101%;
 }
 
 aside {
@@ -76,10 +85,23 @@ aside {
     background-color:  #b26af5;
 }
 
+.asidePanel {
+    display: block;
+    width: 60px;
+    margin: 30px auto;
+}
+
+.asidePanel img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
 .information {
     font-family: Arial, sans-serif;
-    font-size: 20px;
-    padding: 50px;
+    font-size: 18px;
+    padding: 80px;
 }
 
 .header2 {
@@ -103,4 +125,65 @@ aside {
     height: auto;
     border: 1px solid #ccc;
     border-radius: 5px;
+}
+
+.login {
+    color: #7329a4;
+    text-align: center;
+    font-size: 22px;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+.loginForm {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+.loginForm label {
+    display: block;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    width: 100%;
+    padding: 10px 2px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.loginForm input[type="submit"] {
+    background-color: #ac4fda;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.loginForm input[type="submit"]:hover {
+    background-color: #7a13ad;
+    font-size: 16px;
+}
+
+.newAccount {
+    text-align: center;
+    margin: 20px auto;
+    width: 300px;
+    font-size: 17px;
+    font-family: Arial, sans-serif;
+}
+
+.newAccount a {
+    color: #440a6b;
 }
