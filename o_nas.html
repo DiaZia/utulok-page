@@ -12,20 +12,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <script src="nav.js"></script>
     <title>O nás</title>
 </head>
 <body>
     <div id="navigation"></div>
-    <script>
-        var xhr = new XMLHttpRequest();
-        xhr.open('GET', 'nav.html', true);
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState === 4 && xhr.status === 200) {
-                document.getElementById('navigation').innerHTML = xhr.responseText;
-            }
-        };
-        xhr.send();
-    </script>
     <main>
         <div class="information">
             <strong>História našeho útulku:</strong>
@@ -43,10 +34,12 @@
             Naším cieľom je vytvoriť komunitu, kde sú všetky zvieratá chránené a milované. Spoločne môžeme meniť životy týchto tvorov a prinášať do sveta viac radosti a lásky. Vaša podpora a zapojenie sú pre nás nepostrádateľné.
             Nezabudnite sa pozrieť na naše adopčné programy, dozvedieť sa viac o našich aktivitách a prispievať, aby sme mohli pokračovať v našej dôležitej práci na ochrane a záchrane zvierat.
         </div>
+        <div class="row info">
+            <p class="col-md-4">18 rokov fungovania</p>
+            <p class="col-md-4">1300+ adoptovaných psov</p>
+            <p class="col-md-4">500+ psov vrátených majiteľom</p>
+        </div>
     </main>
-
-    <footer>
-        <p>&copy; 2023 Diana Žiaková - Semestrálna práca z predmetu VAII</p>
-    </footer>
+    <div id="footer"></div>
 </body>
 </html>

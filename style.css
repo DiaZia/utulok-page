@@ -1,5 +1,4 @@
 body {
-    background-color: #fedcff;
     margin: 0;
     padding: 0;
 }
@@ -36,12 +35,16 @@ body {
 .header .title {
     text-align: left;
     font-family: 'Dancing Script', cursive;
-    font-size: 45px;
-    padding-left: 40px;
+    font-size: 43px;
+    padding-left: 30px;
     cursor: pointer;
     text-decoration: none;
     color:white;
-    margin-top: -20px;
+    max-width: 100%;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .mainButtons {
@@ -81,16 +84,14 @@ body {
     position: relative;
 }
 
-main .row {
+.mainDiv .row {
     display: flex;
-    width: 100%;
-    position: relative;
+    width: fit-content;
 }
 
 aside {
     background-color:  #b26af5;
     margin: 0;
-    position: relative;
 }
 
 .asidePanel {
@@ -113,15 +114,16 @@ aside {
     margin: 0;
 }
 
-.header2 {
-    display: flex;
+.info {
+    width: 100%;
+    background-color: #7a1ddc;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    min-height: 70px;
 }
 
-.back {
-    margin-top: 50px;
-    margin-right: 20px;
-    margin-left: auto;
-}
 
 .grid {
     display: grid;
@@ -230,4 +232,26 @@ aside {
     margin: 20px 30px;
 }
 
+
+.pet {
+    text-align: center;
+}
+
+.pet h3 {
+    font-size: 20px;
+    background-color: #ccb5e5;
+    padding: 7px;
+    border: 1px solid #ccb5e5;
+    border-radius: 10px;
+    margin-top: 1px;
+    cursor: pointer;
+}
+
+.pet img {
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+}
 
