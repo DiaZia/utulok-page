@@ -35,16 +35,22 @@ body {
 .header .title {
     text-align: left;
     font-family: 'Dancing Script', cursive;
-    font-size: 43px;
+    font-size: 45px;
     padding-left: 30px;
     cursor: pointer;
     text-decoration: none;
-    color:white;
+    color: white;
     max-width: 100%;
     display: block;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+    .header .title {
+        font-size: 35px;
+    }
 }
 
 .mainButtons {
