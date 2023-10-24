@@ -55,9 +55,11 @@ body {
 
 @media (max-width: 576px) {
     .header .title {
-        font-size: 30px;
+        font-size: 20px;
     }
 }
+
+
 
 .mainButtons {
     border: 1px solid black;
