@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #ccb5e5;
 }
 
 .navbar .row {
@@ -47,15 +48,17 @@ body {
     text-overflow: ellipsis;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .header .title {
-        font-size: 35px;
+        font-size: 38px;
+        margin-top: 10px;
     }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
     .header .title {
-        font-size: 20px;
+        font-size: 30px;
+        margin-top: 15px;
     }
 }
 
@@ -263,6 +266,7 @@ aside {
 
 .pet img {
     cursor: pointer;
+    width: 100%;
 }
 
 footer {
