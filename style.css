@@ -43,22 +43,19 @@ body {
     color: white;
     max-width: 100%;
     display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 @media (max-width: 767px) {
     .header .title {
-        font-size: 38px;
+        font-size: 36px;
         margin-top: 10px;
     }
 }
 
 @media (max-width: 575px) {
     .header .title {
-        font-size: 30px;
-        margin-top: 15px;
+        width: 100px;
+        margin-top: -30px;
     }
 }
 
