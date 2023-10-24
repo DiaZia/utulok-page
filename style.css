@@ -53,6 +53,12 @@ body {
     }
 }
 
+@media (max-width: 576px) {
+    .header .title {
+        font-size: 30px;
+    }
+}
+
 .mainButtons {
     border: 1px solid black;
     border-radius: 10px;
