@@ -129,7 +129,7 @@ aside {
 }
 
 .info {
-    width: 100%;
+    width: 102%;
     background-color: #7a1ddc;
     font-size: 20px;
     color: white;
@@ -141,10 +141,10 @@ aside {
 
 .grid {
     display: grid;
-    margin-top: 5px;
-    width: 99%;
+    margin: 15px auto;
+    width: 95%;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
+    gap: 15px;
 }
 
 .grid img {
